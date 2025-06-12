@@ -1,0 +1,32 @@
+/* petfinder/src/components/PetCard.css */
+.pet-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.2s ease;
+}
+
+.pet-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.pet-info {
+    padding: 15px;
+}
+
+.pet-info h3 {
+    color: #0cc32a;
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.pet-info p {
+    font-size: 0.95em;
+    color: #666;
+    margin-bottom: 5px;
+}

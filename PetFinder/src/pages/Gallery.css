@@ -1,0 +1,24 @@
+.gallery-section {
+    padding: 40px 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.gallery-section h2 {
+    color: #0cc32a;
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+.gallery-section .total-pets {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.pet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 25px;
+    justify-content: center; 
+}
